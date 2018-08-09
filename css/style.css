@@ -787,7 +787,7 @@
     opacity: 0.2 !important;	
 }
 /* 适配手机 */
-@media only screen and (max-width: 380px) and (max-width: 750px) {
+@media only screen and (max-width: 350px) and (max-width: 750px) {
 	.footer-main p{
 	padding-left: 5px;
     }
@@ -810,7 +810,7 @@
 	}
 	
 }
-@media only screen and (min-width: 300px) and (max-width: 380px) {
+@media only screen and (min-width: 300px) and (max-width: 350px) {
 	.pr-left-area1{
 		font-size: 0.5rem;
 	}	
