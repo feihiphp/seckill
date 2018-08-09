@@ -1,0 +1,176 @@
+body, html {
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+#parent{ 
+       position: relative;
+}
+.st-goods-list ul li{
+    float: left;
+    width: 46%;
+    margin-left: 4%;
+    margin-bottom: 15px;
+}
+.st-goods-list ul{
+    overflow: hidden;
+    padding: 5px 10px;
+    margin-left: -4%;
+}
+.st-goods-img{
+    width: 100%;
+    height: 160px;
+}
+.st-col1{
+    padding: 8px 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+.st-goods-name{
+    font-size: 14px;
+    line-height: 18px;
+    height: 36px;
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+    color: #000;
+}
+.st-goods-price{
+    font-size: 16px;
+    line-height: 18px;
+    height: 18px;
+    color: #ff0000;
+}
+.st-sold{
+    font-size: 14px;
+    line-height: 18px;
+    height: 18px;
+    color: #999;
+}
+.shopping-cart{
+	position: fixed;
+	right: 15%;
+	bottom: 20%;
+	z-index: 5555;
+	border-radius: 50%;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	vertical-align:bottom;
+}
+
+/*购物车*/
+.sh-list ul li{
+	margin-left: 24px;
+	border-bottom: 1px solid #ccc;
+}
+.sh-list-img img{
+	width: 70px;
+	height: 70px;
+	display: block;
+	vertical-align: bottom;
+}
+.sh-col1{
+	margin-left: 12px;
+	float: left;
+	width: 64%;
+	padding: 10px 0px;
+}
+.sh-col1-area{
+	overflow: hidden;
+}
+.sh-col1-pr{
+	float: left;
+	overflow: hidden;
+}
+.sh-col1-pr strong{
+	float: left;
+	font-weight: normal;
+	color: #555;
+	font-size: 14px;
+}
+.sh-col1-pr p{
+	float: left;
+	color: #e60012;
+}
+.sh-col1-name{
+	font-size: 14px;
+	color: #666;
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.sh-col1-count{
+	float: right;
+	color: #999;
+	margin-right: 15px;
+}
+.sh-col1-count span{
+	margin-left: 2px;
+}
+.footer-btn-all{
+	float: left;
+	height: 2rem;
+}
+.btn-final{
+	width: 38%;
+    float: right;
+    background-color: #FF3B3C;
+    font-size: 0.75rem;
+    line-height: 2rem;
+    color: #fff;
+    border: 0;
+    border-top: 1px solid #FF3B3C;
+}
+.sh-btn-pr{
+	float: right;
+	padding-right: 10px;
+}
+.sh-btn-pr p{
+	text-align: right;
+    font-size: 0.75rem;
+    line-height: 2rem;
+    color: #FF3B3C;
+    float: right;
+}
+.footer-main-col{
+	overflow: hidden;
+	float: left;
+	width: 62%;
+}
+.sh-btn-total{
+	font-weight: normal;
+	font-size: 0.75rem;
+	line-height: 2rem;
+	color: #555;
+}
+.sh-number-pr{
+	z-index: 9999;
+}
+.weui-check__label{
+	float: left;
+}
+.weui-cells_checkbox{
+	overflow: hidden;
+}
+.weui-cell{
+	padding: 10px 0px;
+}
+.demos-content-padded {
+  padding: 15px;
+}
+.gwc-total{
+	margin: 10px 15px;
+    padding-top: 10px;
+    font-size: 0.75rem;
+    color: #565656;
+}
+.gwc-total p{
+	text-align: right;	
+}
+.gwc-total span{
+	color: red;
+}
